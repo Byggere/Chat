@@ -13,6 +13,4 @@ $result->execute();
 
 $result = $result->get_result();
 while ($r = $result->fetch_row()) {
-	echo $r[1];
-	echo "\\";
 }
