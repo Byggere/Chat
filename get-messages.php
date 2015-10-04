@@ -1,5 +1,5 @@
 <?php
-$db = new mysqli("localhost", "", "", "");
+$db = new mysqli("http://byggere.github.io/Chat/", "", "", "");
 
 if ($db->connect_error) {
 	die("Sorry, there was a problem connecting to our database.");
